@@ -1,0 +1,40 @@
+{
+  "name": "workingpaper-butler",
+  "version": "1.0.0",
+  "description": "工作论文管家 - 每日论文推荐、学术研究助手",
+  "homepage": "https://github.com/KNOB-bot/workingpaper-butler",
+  "repository": "https://github.com/KNOB-bot/workingpaper-butler",
+  "license": "MIT",
+  "author": {
+    "name": "WorkingPaper Butler Team",
+    "email": "support@example.com"
+  },
+  "keywords": [
+    "working-paper",
+    "research",
+    "paper",
+    "NBER",
+    "arxiv",
+    "crossref",
+    "daily-recommend",
+    "academic"
+  ],
+  "category": "学术研究",
+  "commands": [
+    "commands/daily-report.md",
+    "commands/paper-search.md"
+  ],
+  "agents": [
+    "agents/academic-researcher.md"
+  ],
+  "skills": [
+    "skills/daily-paper-recommend",
+    "skills/paper-analyzer",
+    "skills/paper-translator",
+    "skills/academic-search"
+  ],
+  "scripts": [
+    "scripts/nber_crawler.py"
+  ],
+  "strict": true
+}
