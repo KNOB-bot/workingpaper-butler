@@ -134,5 +134,4 @@ pip install scrapling[all] requests arxiv
 MIT License
 
 ## 作者
-
-WorkingPaper Butler Team
+KONB—bot
